@@ -1,0 +1,122 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,300,700);
+body {
+  padding-top: 70px;
+  /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
+}
+.navbar-fixed-top .nav {
+  padding: 15px 0;
+}
+.navbar-fixed-top .navbar-brand {
+  padding: 0 15px;
+}
+@media (min-width: 768px) {
+  body {
+    padding-top: 100px;
+    /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
+  }
+  .navbar-fixed-top .navbar-brand {
+    padding: 15px 0;
+  }
+  #logo {
+    width: 150px;
+    height: 50px;
+  }
+}
+.navbar-itsmobile {
+  height: 140px;
+  font-family: 'Open Sans', sans-serif;
+}
+.navbar-inverse .navbar-nav li {
+  padding-right: 20px;
+}
+.navbar-inverse .navbar-nav li a {
+  color: #ffffff;
+}
+.navbar-inverse .navbar-nav li a:hover {
+  color: #f04f23;
+}
+.navbar-inverse .navbar-nav .active a {
+  color: #f04f23;
+  font-weight: bold;
+  background-color: transparent;
+}
+.contact-mobile {
+  font-family: 'Open Sans', sans-serif;
+  color: #ffffff;
+  font-size: 18px;
+  margin-right: 10em;
+}
+.fb-like {
+  margin-right: -19em;
+}
+.about-us {
+  background-image: url("images/aboutbg.jpg");
+  margin-top: 20px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 30px 40px 30px 40px;
+}
+.about-us h1 {
+  color: #ffffff;
+  font-family: 'Open Sans', sans-serif;
+}
+.about-us .breadcrumb {
+  background-color: transparent;
+}
+.about-us .breadcrumb li a {
+  color: #ffffff;
+}
+.about-us .breadcrumb li .active {
+  color: #f04f23;
+}
+.about-content {
+  font-family: 'Open Sans', sans-serif;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+.about-content p {
+  margin-bottom: 30px;
+  padding: 1px;
+}
+.about-people {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #eeeeee;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.about-people img {
+  border: 5px solid #f04f23;
+}
+.about-people p {
+  margin-top: 16px;
+  margin-bottom: 16px;
+  font-size: 22px;
+  color: #444444;
+}
+.footer-1 {
+  background-color: #444444;
+}
+.footer-1 .footer-inside {
+  padding: 40px;
+}
+.footer-1 h3 {
+  color: #f04f23;
+}
+.footer-1 ul li {
+  list-style: none;
+  color: #ffffff;
+  margin-left: -45px;
+  padding-bottom: 5px;
+}
+.footer-1 ul li span {
+  font-size: 20px;
+}
+.footer-2 {
+  padding: 20px;
+}
+.footer-2 p {
+  color: #f04f23;
+}
+.footer-2 img {
+  margin-right: 10px;
+}

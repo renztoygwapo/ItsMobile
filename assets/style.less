@@ -1,0 +1,150 @@
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,300,700);
+@brand-secondary: #f04f23;
+@brand-white: #ffffff;
+
+@font-family: 'Open Sans', sans-serif;
+body {
+    padding-top: 70px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
+}
+
+.navbar-fixed-top .nav {
+    padding: 15px 0;
+}
+
+.navbar-fixed-top .navbar-brand {
+    padding: 0 15px;
+}
+
+@media(min-width:768px) {
+    body {
+        padding-top: 100px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
+    }
+
+    .navbar-fixed-top .navbar-brand {
+        padding: 15px 0;
+    }
+    #logo{
+      width: 150px;
+      height: 50px;
+    }
+}
+.navbar-itsmobile{
+  height: 140px;
+   font-family: @font-family;
+}
+.navbar-inverse .navbar-nav{
+
+  li{
+      padding-right: 20px;
+    a{
+    color: @brand-white;
+  }
+  a:hover{
+    color: @brand-secondary;
+  }
+
+  }
+.active{
+  a{
+      color: @brand-secondary;
+    font-weight: bold;
+    background-color:transparent;
+  }
+
+  }
+}
+
+.contact-mobile{
+  font-family: @font-family;
+  color: @brand-white;
+  font-size: 18px;
+  margin-right: 10em;
+}
+.fb-like{
+  margin-right: -19em;
+}
+  
+
+.about-us{
+background-image: url("images/aboutbg.jpg");
+margin-top: 20px;
+background-size: cover;
+background-repeat: no-repeat;
+padding: 30px 40px 30px 40px;
+h1{
+  color: #ffffff;
+  font-family: @font-family;
+}
+.breadcrumb{
+  background-color: transparent;
+li{
+  a{
+    color:@brand-white;
+  }
+  .active{
+    color: @brand-secondary;
+  }
+}
+
+}
+}
+
+//about content
+.about-content{
+   font-family: @font-family;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  p{
+margin-bottom: 30px;
+padding: 1px;
+  }
+}
+
+//about people
+.about-people{
+    font-family: @font-family;
+  background-color: #eeeeee;
+  padding-top: 80px;
+padding-bottom: 80px;
+
+  img{
+    border: 5px solid @brand-secondary;
+  }
+  p{
+    margin-top: 16px;
+    margin-bottom: 16px;
+    font-size: 22px;
+    color: #444444;
+  }
+}
+
+.footer-1{
+  .footer-inside{
+    padding: 40px;
+  }
+  background-color: #444444;
+  h3{
+    color: @brand-secondary;
+  }
+  ul{
+    li{
+     list-style: none;
+     color: @brand-white;
+     margin-left: -45px;
+     padding-bottom: 5px;
+     span{
+      font-size: 20px;
+     }
+    }
+  }
+}
+.footer-2{
+  padding: 20px;
+  p{
+    color:@brand-secondary;
+  }
+  img{
+    margin-right: 10px;
+  }
+}
